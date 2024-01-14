@@ -1,11 +1,11 @@
-import 'dart:math'; // Add import for the 'pow' function
+import 'dart:math'; 
 
 import 'package:flutter/material.dart';
 import 'welcome_screen.dart';
 
 class ProjectedGrowthScreen extends StatefulWidget {
   final double expectedPercentReturn;
-  final double initialSalaryMultiplier = 0.2; // Set your desired multiplier here
+  final double initialSalaryMultiplier = 0.2; 
 
   ProjectedGrowthScreen({required this.expectedPercentReturn});
 
@@ -14,7 +14,7 @@ class ProjectedGrowthScreen extends StatefulWidget {
 }
 
 class _ProjectedGrowthScreenState extends State<ProjectedGrowthScreen> {
-  int selectedDuration = 10; // Default duration is 10 years
+  int selectedDuration = 10; 
   List<DataRow> tableData = [];
 
   @override
