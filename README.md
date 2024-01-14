@@ -1,16 +1,7 @@
-# testing
+# Budget Buddy
 
-A new Flutter project.
+This android app solves the problem of budgeting finances using the 50-30-20 rule, where 50% of income goes to your needs, 30% goes into your wants, and 20% goes into your savings. In the app you input your salary and your expected percent growth for your investments. The app will return a breakdown of each of these categories. The user can specify whether they want monthly breakdowns of costs or yearly breakdowns. The app also has a selections page to verify your selections, as well as a projected growth page which calculates your projected growth over 5 years, 10 years or 20 years based on the inputted expected percent growth. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To get started, clone the repository and run the app with android studio.
